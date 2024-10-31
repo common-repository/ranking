@@ -1,0 +1,132 @@
+.nav-tabs {
+    float: left;
+    width: 100%;
+    margin: 0;
+    list-style-type: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-tabs>li {
+    float: left;
+    margin-bottom: -1px;
+}
+
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.5;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    float: left;
+}
+
+.nav-tabs>li>a:hover {
+    border-color: #eee #eee #ddd;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+
+.tab-content>.tab-pane {
+    float: left;
+    width: 100%;
+    display: none;
+}
+
+.tab-content>.tab-pane.active {
+    display: block;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 5px 4px -2px rgba(0, 0, 0, 0.15);
+}
+
+/* 自定義對話框樣式 */
+#customDialog,
+#customDialog2 {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+span#copyButton,
+span#copyButton2 {
+    position: relative;
+    top: 5px;
+    margin-left: 7px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+span#copyButton:hover,
+span#copyButton2:hover {
+    color: #6fa701;
+}
+
+.rank-post-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: -20px;
+    padding: 12px 15px;
+    border-bottom: 1px solid #b5bfc9;
+    background: #fff;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+.rank-post-header .rank-post-logo {
+    position: relative;
+    margin-right: 15px;
+    padding-right: 15px;
+}
+
+.rank-post-header .rank-post-logo-text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.rank-post-header .rank-post-logo:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 70px;
+    margin: -12px 0;
+    content: '';
+    background: #b5bfc9;
+}
+
+.rank-post-header .rank-post-logo a {
+    text-decoration: none;
+}
+
+.rank-post-icon {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    /* background: linear-gradient(-150deg, #FFFFFF, #CCDDFF); */
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.rank-post-icon img {
+    max-width: 100%;
+    max-height: 100%;
+}

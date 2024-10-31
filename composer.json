@@ -1,0 +1,17 @@
+{
+    "name": "gc_chandler/gc-ranking-post",
+    "description": "Ranking Post Json",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Chandler Kuo",
+            "email": "chandler@gcreate.com.tw"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4":{"GCREATE\\": "./includes"}
+    }
+}
